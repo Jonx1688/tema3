@@ -1,0 +1,79 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+/* navigation */
+.wrapper {
+  height: 100%;
+  background-size:cover;
+background-image: url("img/forside1.jpeg");
+background-repeat: no-repeat;
+padding-top: 7%;
+}
+
+.wrapper1 {
+  height: 100%;
+  background-size: cover;
+background-image: url("img/sofa2.jpeg");
+background-repeat: no-repeat;
+padding-top: 7%;
+}
+
+.wrapper2 {
+  height: 100%;
+  background-size: cover;
+background-image: url("img/stol.jpg");
+background-repeat: no-repeat;
+padding-top: 7%;
+}
+
+.wrapper3 {
+  height: 100%;
+  background-size: 100%;
+background-image: url("img/bord.jpeg");
+background-repeat: no-repeat;
+padding-top: 7%;
+}
+
+.make-a-living{
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+.søg {
+  float: right;
+  margin-right: 2%;
+}
+
+
+
+nav {
+
+}
+
+ul {
+list-style-type: none;
+font-family: Helvetica;
+}
+
+li a {
+text-decoration: none;
+text-transform: uppercase;
+font-size: 200%;
+Color: black;
+}
+
+li a:hover{
+  color: #fff;
+}
+
+li a.active {
+    color: #000;
+}
