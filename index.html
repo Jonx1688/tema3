@@ -6,27 +6,59 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>home</title>
   </head>
-  <body id="mads">
+  <body>
+
+        <div class="wrapper">
+          <nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input id="fakecheckbox" type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="sofa.html"><li>SOFA</li></a>
+      <a href="stol.html"><li>STOL</li></a>
+      <a href="bord.html"><li>BORD</li></a>
+      <a href="bolig.html"><li>BOLIGINDRETNING</li></a>
+      <a href="inspiration.html"><li>INSPIRATION</li></a>
+      <a href="om.html"><li>OM OS</li></a>
+    </ul>
+  </div>
+</nav>
+          <input class="søg" type="text" name="search" placeholder="Search..">
+
+        <nav class="nav">
+            <ul>
+            <li><a class="make-a-living" href="index.html"><h1>MAKE A LIVING</h1></a></li>
+            <li><a class="undersidelink" href="sofa.html">Sofa</a></li>
+            <li><a class="undersidelink" href="stol.html">Stol</a></li>
+            <li><a class="undersidelink" href="bord.html">Bord</a></li>
+            <li><a class="undersidelink" href="bolig.html">Bolig indretning</a></li>
+            <li><a class="undersidelink" href="inspiration.html">Inspiration</a></li>
+            <li><a class="undersidelink" href="om.html">Om os</a></li>
+
+            <p class="spar">Save 25% on everything</p>
+          </ul>
+        </nav>
 
 
 
-    <div class="wrapper">
-      <input class="søg" type="text" name="search" placeholder="Search..">
-
-    <nav class="nav">
-        <ul>
-        <li><a class="make-a-living" href="index.html"><h1>MAKE A LIVING</h1></a></li>
-        <li><a href="sofa.html">Sofa</a></li>
-        <li><a href="stol.html">Stol</a></li>
-        <li><a href="bord.html">Bord</a></li>
-        <li><a href="om.html">Om os</a></li>
-      </ul>
-
-
-
-
-
-    </nav>
   </div>
   </body>
 </html>
