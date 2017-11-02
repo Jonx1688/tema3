@@ -101,27 +101,28 @@ font-weight: lighter;
 
 article {
   float: right;
-  border:
 }
 
 .pris {
+  width: 100px;
   font-size: 200%;
   font-family: helvetica;
   font-weight: lighter;
-  margin-top: 160px;
-  margin-left: 93px;
-  float: left;
+  position: relative;
+  bottom: -200px;
+  left: 90px;
   clear: left;
 }
 
 .pris2 {
+  width: 100px;
   font-size: 200%;
   color: white;
   font-family: helvetica;
   font-weight: lighter;
-  margin-top: 160px;
-  margin-left: 93px;
-  float: left;
+  position: relative;
+  bottom: -200px;
+  left: 90px;
   clear: left;
 }
 
@@ -175,8 +176,8 @@ list-style-type: circle;
     display: inline-block;
     font-weight: lighter;
     position: relative;
-    margin-top: 40%;
-    margin-left: -410px;
+    bottom: -170px;
+    left: 40px;
     clear: left;
 }
 
@@ -235,69 +236,68 @@ li a.active {
 
 
 @media screen and (max-width: 480px) {
-  
+
   #menutoggle, #menu {
   display: inline;
 }
-  
+
   .nav {
     padding-top: 10px;
   }
-  
+
   .make-a-living {
     font-size: 130%;
   }
-  
+
   .undersidelink {
     display: none;
   }
-  
+
   .pris, .pris2 {
-    margin-top: 350px;
-    margin-left: 140px;
+    margin-top: 120px;
   }
-  
+
   .knap {
-    bottom: -350px;
-    left: 120px;
+    bottom: -170px;
+    left: 40px;
   }
-  
+
   .wrapper1  {
     background-image: url(img/sofa2-mobil.jpg);
   }
-  
+
   .wrapper3 {
     background-image: url(img/bord-mobil.jpg);
   }
-  
+
   .wrapper4 {
     background-image: url(img/blomst-mobil.jpg);
     background-size: 100%;
   }
-  
+
   .wrapper5 {
     background-image: url(img/inspi2-mobil.jpg);
   }
-  
+
   .wrapper6 {
     background-image: url(img/parot-mobil.jpg);
     background-size: 100%;
   }
-  
+
   .box {
     margin: 280px 20px 20px 20px;
     padding-top: 0;
     background-color: rgba(255,255,255,0.5);
   }
-  
+
   .box h2 {
     margin-left: 20px;
   }
-  
+
   .tips, .tips2, .kontakt {
     margin: auto;
   }
-  
+
   a {
     text-decoration: none;
     color: #232323;
@@ -381,7 +381,7 @@ li a.active {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
 
-  #menu li {
+  #menu li a {
     padding: 10px 0;
     font-size: 22px;
   }
